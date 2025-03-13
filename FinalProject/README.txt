@@ -1,8 +1,9 @@
-Hello and welcome to my pharmacokinetic (PK) data model! The objective of this code is to predict the PK Data of a
-small molecule orally delivered in a human. This is done using specific properties of the drug established by the user
-and clustering if inputted by the user. Current data inputted is the data used for the accompanying paper and the Trials
-folder holds a collection of data used for analysis in the said paper. Please refer to the "REQUIRMENTS.txt" file for
-required modules for this model.
+Hello and welcome to my pharmacokinetic (PK) data model! The objective of this code is to predict the PK Data (Total Exposure (AUC), Max Exposure,
+and Half Life) of a small molecule orally delivered in a human using imported time course data (it is recomended to use one modality and one measureed tissue
+per trial (ie. tablet and plasma) as this model does not compare between modailities and measurment types.
+Specific properties of the drugs are established by the user and are clustered (clusters determined by user, see bellow). Current data inputted 
+and PK files are the data used for the accompanying paper and the Trials folder holds a collection of data used for analysis in the said paper. Please refer 
+to the "REQUIRMENTS.txt" file for required modules for this model.
 
 To use the model it is important to go over the specific items used within this package:
 -"TrainData" Folder:
